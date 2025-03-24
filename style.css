@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.left-section {
+    flex: 1;
+    padding-right: 32px;
+}
+
+.logo h1 {
+    color: #1877f2;
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.left-section h2 {
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+
+.right-section {
+    flex: 1;
+}
+
+.login-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 396px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 14px 16px;
+    margin-bottom: 12px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 17px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.login-btn {
+    background-color: #1877f2;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.login-btn:hover {
+    background-color: #166fe5;
+}
+
+.forgot-password {
+    text-align: center;
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 1px solid #dadde1;
+    margin: 20px 0;
+}
+
+.create-account-btn {
+    background-color: #42b72a;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.create-account-btn:hover {
+    background-color: #36a420;
+}
+
+.create-page {
+    text-align: center;
+    margin-top: 28px;
+    font-size: 14px;
+}
+
+footer {
+    background-color: white;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.languages {
+    padding: 8px 0;
+    border-bottom: 1px solid #dddfe2;
+}
+
+.languages a {
+    color: #737373;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.links {
+    padding: 8px 0;
+}
+
+.links a {
+    color: #737373;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.copyright {
+    color: #737373;
+    font-size: 11px;
+    margin-top: 20px;
+}
